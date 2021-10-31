@@ -6,12 +6,18 @@ public class AssignmentConversion {
 		// TODO Auto-generated method stub
 		
 		int height = 157;
-		double height2 = height;
+		double height2 = (double) height / 100;
 		
-		System.out.println(height2);
+		double weight = 59.7;
+		
+		double bmi = weight / (height2 * height2);
+		
+		System.out.print("Height in metres is: ");
+		System.out.printf("%.2f", height2);
+		System.out.print("\nBMI is: ");
+		System.out.printf("%.2f", bmi);
 		
 		
-
 	}
 
 }
