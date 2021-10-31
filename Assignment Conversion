@@ -1,0 +1,17 @@
+package selfProgramming;
+
+public class AssignmentConversion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int height = 157;
+		double height2 = height;
+		
+		System.out.println(height2);
+		
+		
+
+	}
+
+}
