@@ -1,0 +1,36 @@
+package scannerMe;
+
+import java.util.Scanner;
+
+public class Integer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		boolean averagenumber = true;
+		boolean averagenumber2 = false;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter an integer: ");
+		int number = sc.nextInt();
+		
+		System.out.println("Integer is: " + number);
+		
+		System.out.print("Enter a double value: ");
+		double number2 = sc.nextDouble();
+		
+		System.out.println("Double value is: " + number2);
+		
+		System.out.print("Enter random number: ");
+		int random = sc.nextInt();
+		
+		double average = ((double) number + number2 + random) / 3;
+		System.out.print("Average of the two number with the random number is: ");
+		System.out.printf("%.2f", average);
+		
+		System.out.println(number > number2);
+
+	}
+
+}
