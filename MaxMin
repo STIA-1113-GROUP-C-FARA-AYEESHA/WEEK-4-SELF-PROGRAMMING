@@ -1,0 +1,16 @@
+package selfProgramming;
+
+public class MaxMin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x = 6;
+		int y = 19;
+		
+		System.out.println("Max number: " + Math.max(x, y));
+		System.out.println("Min number: " + Math.min(x, y));
+
+	}
+
+}
