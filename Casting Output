@@ -1,0 +1,17 @@
+package selfProgramming;
+
+public class Casting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int weight = 70;
+		int height = 180;
+		double heightcm = (double) height/100;
+		double bmi = (double) weight / (heightcm*2);
+		
+		System.out.println("Your BMI is: " + bmi);
+
+	}
+
+}
