@@ -1,0 +1,16 @@
+package selfProgramming;
+
+public class MathRound {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double num = 173.888;
+		double ascii = Math.round(num);
+		
+		System.out.println(ascii);
+		
+
+	}
+
+}
