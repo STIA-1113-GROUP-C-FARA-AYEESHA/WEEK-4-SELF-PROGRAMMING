@@ -1,0 +1,45 @@
+package selfProgramming;
+
+public class SquareRoot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		char x = 'a';
+		char y = 'b';
+		char z = 'c';
+		double formula;
+		formula = (-y + Math.sqrt(y * y - 4 * x * z)) / (2 * x);
+		double i = y*y;
+		double j = 4 * x * z;
+		double k = -(i - j);
+		double kk = Math.sqrt(k);
+		double l = -y + kk;
+		double m = 2 * x;
+		double mm =  l/m;
+		int ascii = (int)y;
+		int asci = (int)x;
+		int asciii = (int)z;
+		int d = 50;
+        float e;
+        e = (float) d / 6;
+		double ascii4 = Math.pow(x, y);
+        double ascii5 = Math.min(x, y);
+        double ascii6 = Math.max(x, y);
+		System.out.println("x is: " +  ascii);
+		System.out.println("y is: " +  asci);
+		System.out.println("z is: " +  asciii);
+		System.out.println("k is: " +  k);
+		System.out.println("kk is: " +  kk);
+		System.out.println("l is: " +  l);
+		System.out.println("m is: " +  m);
+		System.out.println("mm is: " +  mm);
+		System.out.println("Formula: " + mm);
+	    System.out.println("Formula of Power is: " + ascii4);
+        System.out.println("The minimum number is: " + ascii5);
+        System.out.println("The maximum number is: " + ascii6);
+        System.out.println();
+        System.out.println(e);
+	}
+
+}
