@@ -1,0 +1,17 @@
+package selfProgramming;
+
+public class MathPower {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x = 7;
+		int y = 3;
+		
+		double square = Math.pow(x, y);
+		
+		System.out.println("The cube power of 7 is: " + square);
+
+	}
+
+}
