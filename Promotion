@@ -1,0 +1,17 @@
+package selfProgramming;
+
+public class Promotion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int count = 51;
+		double num = 370.17;
+		
+		double result = count/num;
+		
+		System.out.println("The result is: " + result);
+
+	}
+
+}
